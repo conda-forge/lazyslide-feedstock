@@ -1,5 +1,5 @@
 {% set name = "lazyslide" %}
-{% set version = "0.9.0" %}
+{% set version = "0.9.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/lazyslide-{{ version }}.tar.gz
-  sha256: f4230935c15ed28b1169b85d3265ed314e721d763a0e738add4b0088fa73f709
+  sha256: 90e7a0dfb8e085dbc2e7281e5790218e8534fb09c0e11ab51eaf8c9347eadf09
 
 build:
   entry_points:
