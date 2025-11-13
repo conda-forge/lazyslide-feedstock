@@ -37,6 +37,7 @@ requirements:
     - pytorch >=2.0.0
     - seaborn >=0.12.2
     - psutil >=5.9.0
+    - tifffile >=2023.7.4,<2025.5.21
 
 test:
   imports:
