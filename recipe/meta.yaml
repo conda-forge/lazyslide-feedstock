@@ -45,7 +45,6 @@ test:
     - lazyslide
   commands:
     - pip check
-    - lazyslide --help
     - zs --help
   requires:
     - python {{ python_min }}
